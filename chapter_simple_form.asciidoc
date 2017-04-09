@@ -1103,7 +1103,7 @@ errors from Django to the user if the browser is intercepting the requests
 before the user even makes them?  And our FT isn't even testing that stuff
 any more!
 
-Well, you're quite right.  But there's are two or three reasons all our time
+Well, you're quite right.  But there are two or three reasons all our time
 hasn't been wasted.  Firstly, client-side validation isn't enough to guarantee
 you're protected from bad inputs, so you always need the server-side as well
 if you really care about data integrity; using a form is a nice way of
